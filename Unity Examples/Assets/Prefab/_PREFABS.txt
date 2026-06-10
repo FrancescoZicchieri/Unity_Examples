@@ -1,0 +1,9 @@
+PREFAB
+
+I prefab sono oggetti dei quali noi possiamo istanziare singole copie.
+Ogni volta che abbiamo un oggetto che appare più volte (anche solo due) con al più leggere modifiche o comunque un'architettura simile DEVE ESSERE RESO PREFAB PER EVITARE GRANDE DOLORE E SVENTURA!
+In particolare pulsanti e altri elementi di UI potrebbero necessitarlo più mdi altro.
+Anche gli oggetti da spawnare a runtime devono essere prefab, ad esempio pozioni di cura droppate, nemici che appaiono proceduralmente o altro che va istanziato durante il gioco.
+
+PREFISSI CONSIGLIATI
+Nessuno -> essendo oggetti da istanziare non uso prefissi :P però chiaramente se servono per organizzare il progetto metteteli!

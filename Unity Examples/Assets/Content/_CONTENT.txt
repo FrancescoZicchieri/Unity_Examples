@@ -1,0 +1,14 @@
+CONTENT
+
+Tipicamente creo una cartella dove mettere tutto quello che importo (modelli 3D, animazioni, sprite 2D, file audio, etc.)
+Metto qua dentro anche materiali e altri asset unici per alcuni asset o personaggi per non creare caos in altre cartelle (ma non script, quelli li tengo tutti nella cartella scripts)
+
+La si può chiamare come si vuole (io la chiamo Content), ma esistono nomi taboo.
+In particolare NON potete chiamare questa cartella Resources, in quanto una cartella con questo nome avrà particolari proprietà e va usata solo per i casi in cui è necessaria (aumenta peso build, può rellantare il codice se usata impropriamente).
+Altri nomi taboo dovrebbero essere Editor e Plugins, ma per una lista vera e completa cercate qua: https://docs.unity3d.com/6000.4/Documentation/Manual/SpecialFolders.html
+
+PREFISSI CONSIGLIATI
+T_ -> texture
+M_ -> material
+SPR_ -> sprite
+FBX_ oppure 3DM_ -> modello 3D (ma in realtà uso poco i prefissi per i modelli 3D quindi non saprei consigliarvi troppo)

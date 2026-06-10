@@ -1,0 +1,20 @@
+SCRIPT
+
+Il codice brutto e cattivo.
+I commenti sono direttamente nel codice.
+
+
+NOTA IMPORTANTISSIMA!!!!!
+Non E RIPETO NON cambiate i nomi degli script a caso. Non ho idea se ora Unity gestisce meglio la cosa, ma quando ho iniziato a usarlo faceva grossi casini e rendeva il progetto ingestibile.
+Quindi se importate in un altro progetto i miei script NON cambiate il nome dei file.
+
+Se proprio dovete seguite la seguente procedura, che è la stessa che si usa per rinominare le cose in C# Visual Studio Community in generale:
+- Aprite lo script che volete rinominare
+- Selezionate il nome della classe - ESEMPIO: public class NomeDellaClasse : MonoBehaviour -> selezionate NomeDellaClasse
+- Tenete premuto CTRL
+- Premete DUE volte R
+- Aprirà una finestra che vi chiederà di rinominare la classe
+- Fatelo e premete invio
+- Avete fatto
+
+Notate che questa procedura (CTRL + R, R) va fatta quando si rinomina qualsiasi classe, variabile o metodo.

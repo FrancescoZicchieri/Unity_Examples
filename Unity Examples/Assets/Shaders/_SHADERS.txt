@@ -1,0 +1,15 @@
+SHADER
+
+Gli shader sono programmi che dicono al computer come colorare i vari pixel dello schermo.
+In questa cartella trovate uno shader unlit creato da me, che simula una luce monocolore che lampeggia (come quella di un allarme).
+Un altro shader, "SG_ToonShader" è presente, ma è più complesso e utilizza lo script aggiuntivo CustomLighting. Dateci un'occhiata se volete ma va ben oltre ai contenuti del corso.
+Lo script CustomLighting allo stesso modo non dovrebbe interessarvi (è copiato da un video di YT btw, non l'ho neppure scritto io quello).
+
+Quando si crea un materiale, questo necessita di uno shader che ne descriva il funzionamento.
+Più info su questo nel file _MATERIALS nella cartella dei materiali.
+
+Per creare uno shader si utilizza shader graph, un linguaggio a blocchi come quello usato nello shader di esempio qua, oppure shaderlab, un linguaggio "a codice" come C# basato su HLSL. Non lo abbiamo visto, ma se si vogliono scrivere shader complessi è talvolta necessario in Unity.
+
+PREFISSI CONSIGLIATI
+SG_ -> file shadergraph
+SL_ -> file shaderlab

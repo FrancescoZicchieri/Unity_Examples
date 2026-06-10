@@ -1,0 +1,20 @@
+RENDER PIPELINE SETTINGS
+Qua potete cambiare i settings della vostra render pipeline per migliore la grafica e l'ottimizzazione.
+Molto importante se puntate a rilasciare un prodotto, ma non beginner friendly.
+
+Non dovreste creare nuovi file qua, ne rinominare (btw ho rinominato il post process di default in "Default_PP_Profile" per dargli un nome più sensato).
+Detto questo ecco un elenco delle proprietà che potreste volere o dover toccare:
+
+- Default_PP_Profile
+  - Tutte le proprietà: è il post process di default quindi se volete tweakkarlo potete farlo. Fate conto che il post process può UCCIDERE la performance e trasformarvi il PC in un tostapane. Quindi se vedete che il gioco lagga e avete attivato venti override di post process, potrebbe essere questo i colpevole.
+
+- PC_RPAsset
+  - Rendering - ho toccatto un paio di questi parametri per ottimizzazione avanzata
+    - Depth Texture: dovrebbe servire per effetti di profondità, ma per quello che so pesa molto, potreste volerlo disattivare per salvare microsecondi
+    - GPU Resident Drawer: dovrebbe abilitare il GPU instancing, utile se volete risparmiare draw calls quando instanziate un grande numero di oggetti identici
+  - Quality - mai toccato nulla ma...
+    - Upscaling Filter: se lo aumentate dovrebbe migliorare (anche di molto) la grafica la costo di trasformare il vostro PC in una supernova. Però non lo mai provato seriamente su Unity.
+  - Lighting - qua ci sono cose interessanti
+    - Shadow Resolution: IMPORTANTISSIMO PER MIGLIORARE QUALITA' VISIVA - aumenta notevolmente la qualità delle ombre. Potrebbe pesare veramente tanto (mai analizzato), ma talvolta serve davvero davvero tanto su Unity.
+  - Shadows - qua ottimizzazione per le ombre (vista con Jasper)
+    - Cascade Count: permette di definire la qualità delle ombre in base alla distanza dal player

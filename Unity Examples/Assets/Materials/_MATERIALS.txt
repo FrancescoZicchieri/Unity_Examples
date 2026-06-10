@@ -1,0 +1,14 @@
+MATERIAL
+
+I materiali permettono di applicare shader con diversi parametri a specifici oggetti.
+La prima cosa da fare è quindi scegliere lo shader da applicare.
+
+Per farlo, selezionate il materiale e, nell'inspector, guardate il alto, appena sotto al nome.
+Qua troverete un menu a tendina preceduto dalla scritta shader.
+Cliccando aprirete la (lunga) lista degli shader, molti dei quali raccolti in categorie.
+Perlopiù ci interessano:
+- Shader Graphs: qua trovate gli shader custom fatti con shader graph (tra cui quello che ho creato "SG_AlarmLight")
+- Universal Render Pipeline: qua trovate shader di base molto usati come lit, unlit e quelli della sottocategoria Autodesk Interactive
+
+PREFISSI CONSIGLIATI
+M_ -> prefisso base per tutti i materiali
